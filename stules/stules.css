@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* about stales */
+
+.about{
+    background-color: yellow;
+}
+
+/* project stules */
+.project{
+    background-color: chocolate;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.project_title{
+    font-size: 45px;
+    color: blue;
+}
+
+/* work stales */
+.work{
+    background-color: aqua;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 40px;
+     
+}
+/* Education Stales  */
+.education{
+    
+    background-color: rgb(20, 150, 48);
+}
