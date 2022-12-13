@@ -13,18 +13,18 @@
 <body>
     
  <!--Main-->
- <div>  
+ <div class="main">  
   
   
     <!-- MainContent -->
-   <div>
+   <div class="main-content">
 
     <!-- about user -->
     <div class="about">
-        <h2>Front-End Developer</h2>
-        <h1>Anton Chornyi</h1>
+        <h2 class="about-position">Front-End Developer</h2>
+        <h1 class="about-name">Anton Chornyi</h1>
 
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        <p class="about-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.    
         </p>
        
@@ -32,6 +32,7 @@
     <!-- projects -->
     <div class=" project">
      <h3 class="project_title">Projects</h3>
+     
 
      <ol>
     <li>
@@ -75,13 +76,10 @@
         <h4>Manager Mono New </h4>
         <p>March 2015 - October 2018   |   Country</p>
         <ul>
-         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
-         <li>Quis ipsum suspendisse ultrices gravida.</li>
-         <li>Risus commodo viverra maecenas. </li>
-         
-
-
-        </ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
+            <li>Quis ipsum suspendisse ultrices gravida.</li>
+            <li>Risus commodo viverra maecenas. </li>
+         </ul>
      </div>
      <!-- Company 3 -->
      <div>
@@ -89,15 +87,11 @@
         <h4>Manager Mono LLC  </h4>
         <p>June 2014 - February 2015   |   Country</p>
         <ul>
-         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </li>
-         <li>Quis ipsum suspendisse ultrices gravida.</li>
-         <li>Risus commodo viverra maecenas. </li>
-           </ul>
-
-     
-             
-            
-        
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </li>
+            <li>Quis ipsum suspendisse ultrices gravida.</li>
+            <li>Risus commodo viverra maecenas. </li>
+        </ul>
+ 
         </div>
 
         
@@ -109,64 +103,55 @@
         <h4>National University of Radioelectronics</h4>
         <h4>Management</h4>
          <p>September 2009 - June 2014   |   Country</p>
-
-
-
     </div>
    
    </div>
    <!-- Sidebar -->
-   <aside>
-    <img src="img/728x510_1_a6964aa55fffee8bc6c3631aee11f20a@2000x1400_0xac120003_8794949311568810898.jpg" alt="user photo">
+   <aside class="sidebar">
+    <img  class="photo"  src="img/728x510_1_a6964aa55fffee8bc6c3631aee11f20a@2000x1400_0xac120003_8794949311568810898.jpg" alt="user photo" >
    <!-- contacts -->
-     <div>
-        <h3> Contacts</h3>
+     <div class="contacts">
+        <h3 class="sidebar-title"> Contacts</h3>
          <div>
             <p>
-                  C: <a href="tel:+38000000088">+38000000088</a>
-                </p>
+                <span class="contact-type">C:</span>
+                   <a href="tel:+38000000088" class="contact-link">+38000000088</a>
+            </p>
 
             <p> 
-                 E:  <a href=" mail:satoneiro1211@gmail.com "> satoneiro1211@gmail.com </a> 
-                </p> 
-
-                
+                <span class="contact-type">E:</span>
+                   <a href=" mailto:satoneiro1211@gmail.com " class="contact-link"> satoneiro1211@gmail.com </a> 
+            </p>            
          </div>
           
     
     </div>
      <!-- Tech Skills -->
-    <div>
+    <div class="tech-skills">
        
-        <h3> Tech Skills</h3>
-        <ul>
-         <li>HTML5</li>
-         <li>CSS3</li>
-         <li>GIT</li>
-         <li>WebPack</li>
-         <li>JavaScript</li>
-         <li>React.js</li>
-         <li>Node.js</li>
-         
-         
+        <h3 class="sidebar-title"> Tech Skills</h3>
+        <ul class="tech-skill-list">
+            <li class="tech-skills-item"> <span class="tech-skills-text" >HTML5</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >CSS3</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >GIT</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >WebPack</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >JavaScript</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >React</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >Node.js</span></li> 
         </ul>
     </div>
     <!-- Soft Skills -->
-    <div>
+    <div class="sofe-skills">
     
-        <h3>Soft Skills</h3>
-        <ul>
-          <li>Skrum</li>
-          <li>Agile</li>
-          <li>GTD</li>
-          <li>Teamwork</li>
-          <img src="/img/728x510_1_a6964aa55fffee8bc6c3631aee11f20a@2000x1400_0xac120003_8794949311568810898.jpg" alt="">
+        <h3 class="sidebar-title">Soft Skills</h3>
+        <ul class="soft-skills-list">
+            <li class="tech-skills-item"><span class="tech-skills-text" >Skrum</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >Agile</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >GTD</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text" >Teamwork</span></li>
+            
         
-
-
-
-
-        </ul>
+       </ul>
 
     </div>
    </aside>
