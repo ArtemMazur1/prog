@@ -41,13 +41,25 @@ width: 400px;
 
 }
 
-/* project stules */
-.project{
-   
+
+.project,
+.project-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    
 }
 
-.project_title{
-    
+.title{
+    font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+color: #000000;
+margin-bottom: 10px;
+
 }
 
 /* work stales */
@@ -55,12 +67,68 @@ width: 400px;
 
      
 }
-/* Education Stales  */
-.education{
-    
-    
+.work-position{
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+margin-bottom: 10px;
 }
-/* main stiles  */
+
+.organization{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+.period{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #A8A8A8;
+margin-bottom: 10px;
+}
+.line{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.work-list {
+    padding: 0;
+    margin-left: 15px;
+}
+.work-list-item{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+
+}
+.departament{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+margin-bottom: 10px;
+
+}
+.univer{
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #FB6D3A;
+margin-bottom: 10px;
+
+
+}
+
 .main{
     display: flex;
     flex-direction: row-reverse;
@@ -142,4 +210,29 @@ line-height: 24px;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
+}
+.projects-item{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+.project-bracked{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+
+}
+.projects-list{
+padding: 0px;
+margin-left: 15px;
+}
+.project-link{
+margin-left: 10px;
+}
+.project{
+    margin-bottom: 50px;
 }
